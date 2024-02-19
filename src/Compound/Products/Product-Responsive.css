@@ -1,0 +1,22 @@
+@media only screen and (max-width:860px) {
+    .Product-store-container-sec{
+        padding: 5px;
+    }
+    .Product-item-container{
+        padding: 20px;
+    }
+    #Product-Card-Img{
+        width: 8rem;
+        height: 6rem;
+    }
+    #Product-item-price{
+        margin: 0;
+    }
+    #Product-item-name{
+        margin-top: 0.5rem;
+    }
+    #Product-title{
+        font-size: 1.5rem;
+        margin: 4px 2px;
+    }
+}

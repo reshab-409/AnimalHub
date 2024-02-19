@@ -1,0 +1,8 @@
+@media only screen and (max-width : 860px){
+    .payment-method-main-sec{
+        width: 16rem;
+    }
+    .radio-group{
+        width: 90%;
+    }
+}

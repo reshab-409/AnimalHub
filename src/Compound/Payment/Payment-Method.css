@@ -1,0 +1,135 @@
+.payment-method-main-container {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.payment-method-main-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  width: 25rem;
+  border-radius: 10px;
+  background: #ccc;
+  border: 5px double #555;
+  min-height: 60vh;
+}
+
+.payment-method-headding-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.payment-method-headding{
+  font-size: 25px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  width: 100%;
+  margin-bottom: 0.8em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.2s, border-color 0.2s;
+  cursor: pointer;
+}
+
+.radio-label:hover {
+  background-color: #e6e6e6;
+}
+
+.radio-input {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-input:checked+.radio-label {
+  background-color: #d9f7cd;
+  border-color: #6dfd91;
+}
+
+.radio-input:focus+.radio-label {
+  outline: 2px solid #1adb01;
+}
+
+.radio-inner-circle {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid #888;
+  border-radius: 50%;
+  margin-right: 0.9em;
+  transition: border-color 0.2s;
+  position: relative;
+}
+
+.radio-label:hover .radio-inner-circle {
+  border-color: #555;
+}
+
+.radio-input:checked+.radio-label .radio-inner-circle {
+  border-color: #07910d;
+}
+
+.radio-input:checked+.radio-label .radio-inner-circle::after {
+  content: '';
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #07910d;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.payment-method-button-sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+#payment-BTN {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ #payment-BTN:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ #payment-BTN:active {
+  transform: translate(0em, 0.2em);
+ }

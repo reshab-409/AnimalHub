@@ -1,0 +1,6 @@
+@media only screen and (max-width: 860px) {
+    .pet-titlepage .pet-titlepage-headding {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}

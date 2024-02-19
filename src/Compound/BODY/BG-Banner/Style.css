@@ -1,0 +1,105 @@
+.pet-sec-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.pet-sec-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pet-sec {
+    background: url('pet.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pet-sec::before {
+    position: absolute;
+    content: "";
+    bottom: 0%;
+    background: url('right.png');
+    background-repeat: no-repeat;
+    right: 10px;
+    width: 143px;
+    height: 83px;
+}
+
+.pet-sec::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    background: url('lefi.png');
+    background-repeat: no-repeat;
+    left: 10px;
+    width: 143px;
+    height: 84px;
+}
+
+.pet-sec .pet-titlepage {
+    padding-bottom: 0;
+}
+
+.pet-sec .pet-titlepage .pet-titlepage-headding {
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 55px;
+    position: relative;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.pet-sec .pet-titlepage .pet-titlepage-span {
+    line-height: 30px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.text_align_left {
+    text-align: left;
+}
+
+.read_more {
+    display: inline-block;
+    background: #1c89bd;
+    color: #fff;
+    max-width: 271px;
+    height: 57px;
+    line-height: 57px;
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    transition: ease-in all 0.4s;
+    text-decoration: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.read_more:hover {
+    background: #e5341d;
+    color: #fff;
+    transition: ease-in all 0.4s;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

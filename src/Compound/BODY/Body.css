@@ -1,0 +1,403 @@
+:root {
+    --background-gradient: linear-gradient(90deg, rgba(2, 0, 23, 1) 0%, rgba(2, 16, 51, 1) 30%, rgba(49, 0, 93, 1) 60%, rgba(67, 0, 161, 1) 100%);
+}
+
+/* Website Medical Part */
+
+.body-card-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 450px;
+    margin: 50px;
+    width: 320px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.card-images {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    animation: ease-out;
+    transition: .5s;
+
+}
+
+.card-intro-sec {
+    width: auto;
+    position: relative;
+    height: auto;
+}
+
+.card-intro-sec .card-intro {
+    height: 110px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(27, 27, 27, 0.8);
+    color: #fff;
+    transition: .5s;
+    animation: ease-in-out;
+}
+
+.card-intro2 {
+    height: 4rem;
+}
+
+
+.card-intro-heading {
+    margin: 10px;
+    font-size: 26px;
+}
+
+.card-para-div {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    overflow-y: scroll;
+}
+
+.card-intro-para {
+    font-size: 18px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-intro-para-span {
+    font-weight: bold;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-intro {
+    height: 250px;
+    background: #000;
+}
+
+.card:hover .card-intro-para {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .card-images {
+    transform: scale(1.1);
+}
+
+/* Website Medical Part */
+
+
+
+/* Website About Section */
+
+.website-about-us {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    align-items: center;
+    margin: 35px 0px;
+    overflow: hidden;
+}
+
+.about-us-carry-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-us-intro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 30px;
+    width: 50%;
+    height: 30rem;
+}
+
+.about-us-headding-sec {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.about-us-headding {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.about-us-para-sec {
+    height: 40rem;
+    overflow-y: scroll;
+}
+
+.about-us-para {
+    color: #202020;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.about-us-image-sec {
+    position: relative;
+    height: 30rem;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 50px;
+}
+
+.about-us-image {
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+}
+
+
+
+/* Website About Section */
+
+
+
+/* Website Find Best Pet Care Section */
+
+.pet-sec-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.pet-sec-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.pet-sec {
+    background: url('./BG-Banner/pet.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0;
+    margin: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.pet-sec::before {
+    position: absolute;
+    content: "";
+    bottom: 0%;
+    background: url('./BG-Banner/right.png');
+    background-repeat: no-repeat;
+    right: 10px;
+    width: 143px;
+    height: 83px;
+}
+
+.pet-sec::after {
+    position: absolute;
+    content: "";
+    top: 0%;
+    background: url('./BG-Banner/left.png');
+    background-repeat: no-repeat;
+    left: 10px;
+    width: 143px;
+    height: 84px;
+}
+
+.pet-sec .pet-titlepage {
+    padding-bottom: 0;
+}
+
+.pet-sec .pet-titlepage .pet-titlepage-headding {
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    position: relative;
+    letter-spacing: 0;
+    margin: 0;
+}
+
+.pet-sec .pet-titlepage .pet-titlepage-span {
+    line-height: 30px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.text_align_left {
+    text-align: left;
+}
+
+.pet-read-more-sec {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.read_more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-gradient);
+    color: #fff;
+    max-width: 271px;
+    height: 57px;
+    line-height: 57px;
+    width: 60%;
+    font-size: 18px;
+    font-weight: 500;
+    transition: ease-in all 0.4s;
+    text-decoration: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.read_more:hover {
+    background: #fff;
+    color: #222222;
+    transition: .4s ease-in all;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Website Find Best Pet Care Section */
+
+/* Website Enter Your Feedback */
+
+.feedback {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-main-sec {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    height: 40rem;
+}
+
+.feedback-main-store-sec {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+}
+
+.feedback-input-form-sec {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    background: #222222;
+}
+
+.feedback-headding-sec {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.feedback-headding {
+    color: #fff;
+    font-weight: bold;
+}
+
+.feedback-input-sec {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.feedback-form-input,
+.feedback-form-textarea {
+    width: 70%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    margin: 8px auto;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.feedback-form-textarea {
+    height: 7rem;
+    border-radius: 20px;
+}
+
+.feedback-form-submit-sec {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback-submit-button {
+    width: 50%;
+    margin: 10px;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: var(--background-gradient);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.feedback-submit-button:hover {
+    background: #fff;
+    color: #222222;
+    transition: .4s ease-in all;
+}
+
+
+/* Website Enter Your Feedback */

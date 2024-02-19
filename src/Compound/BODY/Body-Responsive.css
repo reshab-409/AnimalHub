@@ -1,0 +1,95 @@
+@media only screen and (max-width:860px) {
+
+    /* Website Medical Part */
+
+
+    .body-card-container {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    .card-intro {
+        height: 120px;
+    }
+
+    .card:hover .card-intro {
+        height: 270px;
+    }
+
+    .card-intro-heading {
+        font-size: 24px;
+    }
+
+    /* Website Medical Part */
+
+
+    /* Website About Section */
+
+    .about-us-carry-sec {
+        flex-direction: column-reverse;
+    }
+
+    .about-us-intro {
+        width: 80%;
+        height: 20rem;
+    }
+
+    .about-us-headding-sec {
+        width: 100%;
+        text-align: right;
+        justify-content: flex-end;
+    }
+
+    .about-us-headding {
+        font-size: 35px;
+        word-wrap: break-word;
+        width: 6.8rem;
+        z-index: 883;
+    }
+
+    .about-us-para-sec {
+        height: 12rem;
+        overflow-y: scroll;
+    }
+
+    .about-us-para {
+        font-size: 18px;
+    }
+
+    .about-us-image-sec {
+        width: 80%;
+        height: 12rem;
+        bottom: 0;
+        justify-content: flex-start;
+    }
+
+    .about-us-image {
+        width: 16rem;
+        height: 18rem;
+        right: 25px;
+    }
+
+    /* Website About Section */
+
+    /* Website Enter Your Feedback */
+
+    .feedback-form-input,
+    .feedback-form-textarea {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .feedback-form-textarea {
+        height: 4rem;
+    }
+
+    .feedback-submit-button {
+        width: 70%;
+    }
+
+    /* Website Enter Your Feedback */
+}

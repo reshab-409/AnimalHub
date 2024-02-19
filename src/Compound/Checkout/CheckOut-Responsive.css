@@ -1,0 +1,25 @@
+@media only screen and (max-width: 860px){
+    .check-out-details-card{
+        min-width: fit-content;
+    }
+    .check-out-form{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .check-out-input-field-sec{
+        margin-bottom: 4px;
+    }
+    .check-out-form-input_field {
+        width: 97%;
+        margin: 0;
+    }
+    .check-out-promo-sec .check-out-form #check-out-button {
+        width: 100%;
+    }
+    .check-out-footer-button-sec{
+        width: 65%;
+    }
+    .check-out #check-out-BTN {
+        width: 50%;
+    }
+}

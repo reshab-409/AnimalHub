@@ -1,0 +1,80 @@
+.Home-main{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.banner-paragraph,
+.banner-company-headding {
+    color: #8f8f8f;
+}
+
+.home-banner-para-sec{
+    width: 95%;
+}
+
+.banner-paragraph {
+    font-size: 1em;
+    line-height: 23px;
+}
+
+.banner-headding {
+    margin: 0;
+}
+
+.skewed {
+    width: 100%;
+    height: 40%;
+    color: #f1f1f1;
+    display: flex;
+    position: relative;
+    background: #111;
+    margin: 1em 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.banner-image-text-area {
+    padding: 1.5em;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    z-index: 400;
+}
+
+.banner-image-sec {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    object-fit: contain;
+    border: none;
+    outline: none;
+}
+
+.banner-image-sec::before {
+    content: "";
+    border: none;
+    outline: none;
+    position: absolute;
+    transform: translateY(-50%) rotate(-9deg);
+    left: initial;
+    top: 30%;
+    right: -6.1em;
+    background: #111;
+    width: 30%;
+    height: 140%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.image-banner {
+    width: 120%;
+}

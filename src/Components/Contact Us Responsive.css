@@ -1,0 +1,33 @@
+@media only screen and (max-width:860px) {
+    .contact-us-form-input-groups {
+        flex-direction: column;
+    }
+
+    .contact-us-form{
+        width: 60%;
+    }
+    .contact-us-form-input {
+        width: 80%;
+    }
+    .contact-us-input-email-photo-sec{
+        width: 85%;
+        flex-direction: column;
+    }
+
+    .contact-us-photo-email-sec{
+        width: fit-content;
+    }
+
+    .contact-us-photo-email{
+        font-size: 13px;
+    }
+    
+    #contact-us-tooltipText {
+        width: 100px;
+    }
+
+    #contact-us-tooltip:hover #contact-us-tooltipText{
+        top: -320%;
+    }
+
+}

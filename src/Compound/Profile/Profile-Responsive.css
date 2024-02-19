@@ -1,0 +1,67 @@
+@media only screen and (max-width: 860px) {
+
+    /* User Profile Upper Section */
+    .user-profile-area-sec {
+        flex-direction: column;
+    }
+
+    .user-profile-picture-sec {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+
+    .user-profile-picture-store-sec {
+        margin: 5px;
+    }
+
+    .user-profile-picture-store-sec #Profile-Photos {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user-profile-propic {
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .user-profile-input-div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .user-profile-icon {
+        font-size: 1rem;
+    }
+
+    .user-profile-form-area-store-sec {
+        width: 80%;
+    }
+
+    .user-profile-form-sec {
+        width: 90%;
+    }
+    
+    .bookmarkBtn {
+        width: 40%;
+        height: 30px;
+    }
+
+    .IconContainer {
+        width: 25px;
+        height: 22px;
+    }
+
+    .user-profile-save-text {
+        font-size: 0.8em;
+    }
+
+    /* User Profile Upper Section */
+    .user-profile-form-input {
+        padding: 5px 10px;
+    }
+
+    .user-profile-form-sec .profile-details-field {
+        margin: 10px 0;
+    }
+}

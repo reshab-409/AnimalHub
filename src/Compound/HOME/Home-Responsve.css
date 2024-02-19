@@ -1,0 +1,55 @@
+@media screen and (max-width:870px) {
+    .skewed {
+        display: block;
+        width: 100%;
+    }
+
+    .banner-image-sec,
+    .banner-image-text-area {
+        width: 100%;
+    }
+
+    .home-banner-para-sec{
+        width: 95%;
+    }
+    
+
+    .image-banner {
+        width: 100%;
+    }
+
+    .skewed .banner-image-sec::before {
+        width: 120%;
+        height: 40%;
+        transform: translatex(-50%) rotate(-10deg);
+        top: initial;
+        bottom: -5em;
+        left: 50%;
+
+    }
+}
+
+@media screen and (min-width:2550px) {
+    .skewed .image::before {
+        width: 150%;
+        height: 25%;
+        transform: translatex(-50%) rotate(82deg);
+        right: initial;
+        top: 30%;
+        left: 118em;
+    }
+
+    .banner-image-text-area {
+        width: 42%;
+    }
+
+    .banner-paragraph,
+    .banner-company-headding {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    .banner-headding {
+        font-size: 5rem;
+    }
+}
